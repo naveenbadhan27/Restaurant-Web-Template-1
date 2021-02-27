@@ -1,0 +1,194 @@
+*
+{
+	font-family: 'Akaya Telivigala', cursive;
+}
+html,body
+{
+	scroll-behavior: smooth;
+}
+
+.navbar
+{
+	background: rgb(1,1,1,.6) !important;
+	border:0px;
+}
+.nav li a
+{
+	font-size: 20px;
+	color: white !important;
+}
+.nav li a span
+{
+	font-size: 14px;
+}
+.nav li:hover a
+{
+	background: rgb(1,1,1,.6) !important;
+}
+.navbar-brand
+{
+	font-size: 25px;
+	position: absolute;
+	left: 25px;
+	color: white !important;
+	font-weight: bold;
+	animation: zo 1s linear 1;
+}
+@keyframes zo
+{
+	0%
+	{
+		font-size: 0px;
+		left: 70px;
+	}
+}
+
+.carousel-mine
+{
+	height: 700px;
+	width: 100%;
+	background: url('img/food1.jpg');
+	background-size: 100% auto;
+	background-position: center;
+	animation: caro 6s ease infinite;
+}
+@keyframes caro
+{
+	50%
+	{
+		background: url('img/food2.jpg');
+		background-size: 100% auto;
+		background-position: center;
+	}
+	100%
+	{
+		background: url('img/food1.jpg');
+		background-size: 100% auto;
+		background-position: center;
+	}
+}
+.carousel-mine p
+{
+	font-size: 150px;
+	position: absolute;
+	width: 63%;
+	color: white;
+	background: linear-gradient(to left,transparent, rgb(1,1,1,.7), transparent);
+	top: 200px;
+	left: 17%;
+	transform-origin: 0% 100%;
+}
+
+
+
+#About
+{
+	padding: 15px;
+}
+
+.about
+{
+	height: 500px;
+	background: url('img/bg1.jpg');
+	background-size: 100% auto;
+	background-position: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px -2px black;
+}
+.txt1
+{
+	font-size: 20px;
+	padding: 15px;
+	text-align: justify;
+	padding-top: 30px;
+}
+.about-heading
+{
+	margin-top: 50px;
+	font-size: 60px;
+	text-align: center;
+}
+
+#Menu
+{
+	/*height: 700px;*/
+	background: grey;
+	padding: 100px;
+}
+
+.box
+{
+	padding: 10px;
+	/*width: 100%;*/
+	/*background: rgb(1,1,1,.7);*/
+}
+.b1
+{
+	height: 200px;
+	background: url('img/d1.jpg');
+	background-size: 100% auto;
+	background-position:center;
+}
+.b2
+{
+	height: 400px;
+	background: url('img/d2.jpg');
+	background-size: 100% auto;
+	background-position:center;
+}
+.b3
+{
+	height: 400px;
+	background: url('img/d3.jpg');
+	background-size: 100% auto;
+	background-position:center;
+	margin-top: -200px;
+}
+.b4
+{
+	height: 200px;
+	background: url('img/d4.jpg');
+	background-size: 100% auto;
+	background-position:bottom;
+	margin-top: -200px;
+}
+.b5
+{
+	height: 200px;
+	background: url('img/d5.jpg');
+	background-size: 100% auto;
+	background-position:center;
+}
+
+
+.glass
+{
+	height: 100%;
+	width: 100%;
+	background: rgb(1,1,1,.5);
+	padding: 10px;
+}
+
+.glass .head
+{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.glass .body
+{
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+}
+.box .glass
+{
+	/*display: none;*/
+	opacity: 0;
+	transition: 1s;
+}
+.box:hover .glass
+{
+	/*display: block;*/
+	opacity: 1;
+}
