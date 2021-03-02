@@ -108,6 +108,10 @@ html,body
 	font-size: 60px;
 	text-align: center;
 }
+.about-heading2
+{
+	display: none;
+}
 
 #Menu
 {
@@ -210,6 +214,7 @@ html,body
 
 #Gallery
 {
+	height: auto;
 	padding: 50px;
 }
 #Gallery .col-lg-3
